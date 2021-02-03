@@ -1,0 +1,27 @@
+{
+  "name": "sliderpilerdotcom",
+  "version": "1.0.0",
+  "description": "Slider Piler (English)",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Superklok/SliderPilerDotCom.git"
+  },
+  "author": "Trev Morin <trev@superklok.com> (https://trevmorin.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Superklok/SliderPilerDotCom/issues"
+  },
+  "homepage": "https://sliderpiler.com",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "1.1.4"
+  }
+}
