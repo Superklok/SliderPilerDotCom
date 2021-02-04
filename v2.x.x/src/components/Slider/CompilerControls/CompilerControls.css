@@ -1,0 +1,15 @@
+.CompilerControls {
+	width: 100%;
+	background-color: #A1DAE1;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	box-shadow: inset 0 0 10px #B0E0E6,
+				0 0 10px #B0E0E6;
+	margin: auto;
+	padding: 10px 0;
+}
+
+.Price {
+	font-size: 1.9rem;
+}
