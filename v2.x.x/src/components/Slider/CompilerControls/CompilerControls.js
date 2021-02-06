@@ -12,7 +12,11 @@ const controls = [
 
 const compilerControls = ( props ) => (
 	<div className={classes.CompilerControls}>
-		<p>Current Price: CA$ <span className={classes.Price}>{props.price.toFixed(2)}</span></p>
+		<p>
+			<span>Current </span>
+			<span className={classes.PriceLabel}>Price: </span>CA$
+			<span className={classes.Price}> {props.price.toFixed(2)}</span>
+		</p>
 		{controls.map(ctrl => (
 			<CompilerControl 
 				key={ctrl.label} 
@@ -21,6 +25,10 @@ const compilerControls = ( props ) => (
 				removed={() => props.ingredientRemoved(ctrl.type)}
 				disabled={props.disabled[ctrl.type]} />
 		))}
+		<button 
+			className={classes.OrderButton}
+			disabled={!props.purchasable}
+			onClick={props.ordered}>Place Order</button>
 	</div>
 );
 

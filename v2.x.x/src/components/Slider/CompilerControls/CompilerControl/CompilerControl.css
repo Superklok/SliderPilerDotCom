@@ -48,12 +48,14 @@
 	color: #000;
 }
 
-.CompilerControl .Less:hover, .CompilerControl .Less:active {  
+.CompilerControl .Less:hover,
+.CompilerControl .Less:active {  
 	background-color: #83CED8;
 	color: #000;
 }
 
-.CompilerControl .More:hover,.CompilerControl .More:active {
+.CompilerControl .More:hover,
+.CompilerControl .More:active {
 	background-color: #65C3CE;
 	color: #000;
 }

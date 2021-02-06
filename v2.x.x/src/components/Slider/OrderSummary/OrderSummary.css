@@ -1,0 +1,21 @@
+h3 {
+	text-align: center;
+}
+
+p {
+	margin-left: 0.4em;
+	margin-right: 0.4em;
+}
+
+ul {
+	margin-left: 0.6em;
+	margin-right: 0.6em;
+}
+
+.Price {
+	font-size: 1.9rem;
+}
+
+.PriceLabel {
+	word-spacing: 9px;
+}
