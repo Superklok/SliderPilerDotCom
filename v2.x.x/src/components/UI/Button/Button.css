@@ -19,9 +19,9 @@
 }
 
 .Danger {
-	background-color: #FFA19C;
+	background-color: #E6B6B0;
 	box-shadow: inset 0 0 10px #B0E0E6,
-				0 0 10px #FFA19C;
+				0 0 10px #E6B6B0;
 }
 
 .Success:hover,

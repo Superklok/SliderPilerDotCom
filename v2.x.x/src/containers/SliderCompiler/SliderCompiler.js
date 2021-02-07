@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Aux from '../../hoc/Auxiliary';
+import Aux from '../../hoc/Auxiliary/Auxiliary';
 import Slider from '../../components/Slider/Slider';
 import CompilerControls from '../../components/Slider/CompilerControls/CompilerControls';
 import Modal from '../../components/UI/Modal/Modal';
