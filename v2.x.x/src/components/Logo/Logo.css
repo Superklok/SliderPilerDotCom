@@ -1,9 +1,4 @@
 .Logo {
-	padding: 8px;
-	height: 100%;
-	box-sizing: border-box;
-}
-
-.Logo img {
-	height: 100%;
+	font-family: 'Metal Mania', cursive;
+	font-size: 2.6rem;
 }

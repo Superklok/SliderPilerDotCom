@@ -1,6 +1,6 @@
 {
   "name": "sliderpilerdotcom",
-  "version": "2.0.0",
+  "version": "2.6.0",
   "description": "Slider Piler (English)",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
   "homepage": "https://sliderpiler.com",
   "dependencies": {
     "autoprefixer": "7.1.6",
+    "axios": "^0.21.1",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
