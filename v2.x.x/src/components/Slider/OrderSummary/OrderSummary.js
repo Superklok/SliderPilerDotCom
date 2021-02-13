@@ -27,8 +27,7 @@ class OrderSummary extends Component {
 					{ingredientSummary}
 				</ul>
 				<p>
-					<span>Total </span>
-					<span className={classes.PriceLabel}>Price: </span>CA$
+					Total Price: CA$
 					<span className={classes.Price}> {this.props.price.toFixed(2)}</span>
 				</p>
 				<p>Proceed to checkout?</p>

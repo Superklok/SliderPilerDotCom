@@ -13,8 +13,7 @@ const controls = [
 const compilerControls = ( props ) => (
 	<div className={classes.CompilerControls}>
 		<p>
-			<span>Current </span>
-			<span className={classes.PriceLabel}>Price: </span>CA$
+			Current Price: CA$
 			<span className={classes.Price}> {props.price.toFixed(2)}</span>
 		</p>
 		{controls.map(ctrl => (

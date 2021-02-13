@@ -5,6 +5,7 @@
 	outline: none;
 	cursor: pointer;
 	font: inherit;
+	font-size: 1.7rem;
 	padding: 10px;
 	margin: 10px;
 	transition: all 0.4s;

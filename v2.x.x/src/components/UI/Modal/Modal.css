@@ -3,12 +3,10 @@
 	z-index: 500;
 	background-color: #B0E0E6;
 	width: 70%;
-	border: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.8);
 	border-radius: 3px;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 	padding: 16px;
 	left: 15%;
-	top: 30%;
 	box-sizing: border-box;
 	transition: all 0.3s ease-out;
 }
