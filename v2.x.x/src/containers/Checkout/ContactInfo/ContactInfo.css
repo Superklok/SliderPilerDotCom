@@ -25,10 +25,6 @@ h4 {
 				0 0 10px #74C9D3;
 }
 
-.Input {
-	display: block;
-}
-
 @media (min-width: 600px) {
 	.ContactInfo {
 		width: 500px;
