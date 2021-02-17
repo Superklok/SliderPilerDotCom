@@ -28,7 +28,12 @@ class Layout extends Component {
 					opened={this.state.showSideDrawer} 
 					closed={this.sideDrawerClosedHandler} />
 				<main className={classes.Content}>
-					{this.props.children}
+					<div className={classes.PageContainer}>
+						<div className={classes.ContentWrap}>
+							{this.props.children}
+						</div>
+						<footer className={classes.Footer}>&copy;<small> 2021 Superklok Labs</small></footer>
+					</div>
 				</main>
 			</Aux>
 		)
