@@ -4,7 +4,6 @@ import classes from './Slider.css';
 import SliderIngredient from './SliderIngredient/SliderIngredient';
 
 const slider = ( props ) => {
-	console.log(props);
 	let transformedIngredients = Object.keys(props.ingredients)
 		.map(igKey => {
 			return [...Array(props.ingredients[igKey])].map((_, i) =>{

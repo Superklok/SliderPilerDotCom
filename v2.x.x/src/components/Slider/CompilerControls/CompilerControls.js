@@ -27,7 +27,7 @@ const compilerControls = ( props ) => (
 		<button 
 			className={classes.OrderButton}
 			disabled={!props.purchasable}
-			onClick={props.ordered}>Place Order</button>
+			onClick={props.ordered}>{props.isAuth ? 'Place Order' : 'Connect to Order'}</button>
 	</div>
 );
 

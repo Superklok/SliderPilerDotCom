@@ -22,12 +22,11 @@ export const purchaseSliderStart = () => {
 	};
 };
 
-export const purchaseSlider = (orderData) => {
+export const purchaseSlider = (orderData, token) => {
 	return dispatch => {
 		dispatch(purchaseSliderStart());
-		axios.post('/orders.json', orderData)
+		axios.post('/orders.json?auth=' + token, orderData)
 			.then(response => {
-				console.log (response.data);
 				dispatch(purchaseSliderSuccess(response.data.name, orderData));
 			})
 			.catch(error => {
@@ -62,10 +61,11 @@ export const fetchOrdersStart = () => {
 	};
 };
 
-export const fetchOrders = () => {
+export const fetchOrders = (token, userId) => {
 	return dispatch => {
 		dispatch(fetchOrdersStart());
-		axios.get('/orders.json')
+		const queryParams = '?auth=' + token + '&orderBy="userId"&equalTo="' + userId + '"';
+		axios.get('/orders.json' + queryParams)
 		.then(res => {
 			const fetchedOrders = [];
 			for (let key in res.data) {

@@ -10,13 +10,14 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import sliderCompilerReducer from './store/reducers/sliderCompiler';
 import orderReducer from './store/reducers/order';
+import authReducer from './store/reducers/auth';
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__COMPOSE__ || compose;
+const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
 
 const rootReducer = combineReducers({
-	sliderPiler: sliderCompilerReducer,
-	order: orderReducer
-
+	sliderCompiler: sliderCompilerReducer,
+	order: orderReducer,
+	auth: authReducer
 });
 
 const store = createStore(rootReducer, composeEnhancers(

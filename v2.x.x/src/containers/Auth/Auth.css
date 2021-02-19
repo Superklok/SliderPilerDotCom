@@ -3,7 +3,7 @@ h4 {
 	font-size: 2.2rem;
 }
 
-.ContactInfo {
+.Auth {
 	margin: 20px auto;
 	width: 80%;
 	text-align: center;
@@ -14,7 +14,7 @@ h4 {
 				0 0 10px #A1DAE1;
 }
 
-.ContactInfo Button {
+.Auth Button {
 	background-color: #BFE6EB;
 	border: 1px solid #BFE6EB;
 	border-radius: 6px;
@@ -25,13 +25,13 @@ h4 {
 	-moz-transition: all 0.2s;
 }
 
-.ContactInfo Button:hover {
+.Auth Button:hover {
 	background-color: #CEECF0;
 	box-shadow: none;
 }
 
 @media (min-width: 600px) {
-	.ContactInfo {
+	.Auth {
 		width: 500px;
 	}
 }
