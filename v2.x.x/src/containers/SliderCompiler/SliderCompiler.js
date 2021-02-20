@@ -11,9 +11,9 @@ import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import axios from '../../axios-orders';
 
-class SliderCompiler extends Component {
+export class SliderCompiler extends Component {
 	state = {
-		purchasing: false,
+		purchasing: false
 	}
 
 	componentDidMount () {
