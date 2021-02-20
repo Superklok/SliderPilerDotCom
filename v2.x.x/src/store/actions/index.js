@@ -1,16 +1,29 @@
 export {
 	addIngredient,
 	removeIngredient,
-	initIngredients
+	initIngredients,
+	setIngredients,
+	fetchIngredientsFailed
 } from './sliderCompiler';
 export { 
 	purchaseSlider,
 	purchaseInit,
-	fetchOrders
+	fetchOrders,
+	purchaseSliderStart,
+	purchaseSliderFail,
+	purchaseSliderSuccess,
+	fetchOrdersSuccess,
+	fetchOrdersStart,
+	fetchOrdersFail
 } from './order';
 export {
 	auth,
 	logout,
 	setAuthRedirectPath,
-	authCheckState
+	authCheckState,
+	logoutSuccess,
+	authStart,
+	authSuccess,
+	authFail,
+	checkAuthTimeout
 } from './auth';
