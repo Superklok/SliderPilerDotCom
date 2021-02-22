@@ -8,7 +8,7 @@
 }
 
 .ContentWrap {
-	padding-bottom: 2.5rem;
+	padding-bottom: 6rem;
 }
 
 .Footer {
@@ -17,4 +17,35 @@
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
+	line-height: 37px;
+}
+
+.Copyright {
+	line-height: 58px;
+	padding-bottom: 12px;
+}
+
+.TrevMorin {
+	font-size: 2.2rem;
+	font-family: 'Lacquer', cursive;
+}
+
+.TrevMorin,
+.French {
+	color: #000;
+	text-decoration: none;
+	border: transparent;
+	border-radius: 6px;
+	padding: 7px;
+	margin: 10px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.TrevMorin:hover,
+.French:hover {
+	box-shadow: inset 0 0 10px #B0E0E6,
+				0 0 10px #83CED8;
+	background-color: #83CED8;
 }
