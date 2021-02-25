@@ -37,8 +37,8 @@ class Layout extends Component {
 							{this.props.children}
 						</div>
 						<footer className={classes.Footer}>
-							<a className={classes.TrevMorin} href="https://trevmorin.com/">TM</a>
-							<a className={classes.French} href="https://sliderpiler.ca/">Fran&#231;ais</a>
+							<a className={classes.TrevMorin} href="http://trevmorin.com/">TM</a>
+							<a className={classes.French} href="http://sliderpiler.ca/">Fran&#231;ais</a>
 							<br/>
 							<span className={classes.Copyright}>&copy;<small> 2021 Superklok Labs</small></span>
 						</footer>

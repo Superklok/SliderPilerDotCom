@@ -1,6 +1,6 @@
 {
   "name": "sliderpilerdotcom",
-  "version": "2.14.0",
+  "version": "2.14.1",
   "description": "Slider Piler (English)",
   "private": true,
   "scripts": {
@@ -12,12 +12,12 @@
     "type": "git",
     "url": "https://github.com/Superklok/SliderPilerDotCom.git"
   },
-  "author": "Trev Morin <trev@superklok.com> (https://trevmorin.com)",
+  "author": "Trev Morin <trev@superklok.com> (http://trevmorin.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Superklok/SliderPilerDotCom/issues"
   },
-  "homepage": "https://sliderpiler.com",
+  "homepage": "http://sliderpiler.com",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.21.1",
