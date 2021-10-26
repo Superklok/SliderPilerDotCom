@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   app:
-    image: sliderpilerdotcom:1.5.3
+    image: sliderpilerdotcom:1.5.4
     build: 
       context: .
     ports:
