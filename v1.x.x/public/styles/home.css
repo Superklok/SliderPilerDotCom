@@ -12,3 +12,8 @@ body {
 .spBG {
 	background-color: #B0E0E6;
 }
+
+.socialBtn {
+	text-decoration: none;
+	padding: 7px;
+}
