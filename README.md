@@ -1,4 +1,4 @@
-# Slider Piler (English Version) v2.15.1
+# Slider Piler (English Version) v2.15.2
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
