@@ -1,8 +1,6 @@
 import React from 'react';
-
-import { configure, shallow } from 'enzyme';
+import {configure, shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-
 import NavigationItems from './NavigationItems';
 import NavigationItem from './NavigationItem/NavigationItem';
 
@@ -26,6 +24,6 @@ describe('<NavigationItems />', () => {
 
 	it('should exact a logout button', () => {
 		wrapper.setProps({isAuthenticated: true});
-		expect(wrapper.contains(<NavigationItem link="/logout">Logout</NavigationItem>)).toEqual(true);
+		expect(wrapper.contains(<NavigationItem link='/logout'>Logout</NavigationItem>)).toEqual(true);
 	});
 });

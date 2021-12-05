@@ -1,4 +1,4 @@
-# Slider Piler (English Version) v2.15.2
+# Slider Piler (English Version) v2.15.6
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
@@ -89,9 +89,6 @@
 <br />
 
 **Create a production build:**
-<br />
-
-`apt install cmdtest`
 <br />
 
 `npm run build`

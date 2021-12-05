@@ -1,9 +1,8 @@
 import React from 'react';
-
 import classes from './Slider.css';
 import SliderIngredient from './SliderIngredient/SliderIngredient';
 
-const slider = ( props ) => {
+const slider = (props) => {
 	let transformedIngredients = Object.keys(props.ingredients)
 		.map(igKey => {
 			return [...Array(props.ingredients[igKey])].map((_, i) =>{
@@ -17,13 +16,14 @@ const slider = ( props ) => {
 	if (transformedIngredients.length === 0) {
 		transformedIngredients = <p>Tell it how it is!</p>
 	}
+
 	return (
 		<div className={classes.Slider}>
-			<SliderIngredient type="bun-top" />
+			<SliderIngredient type='bun-top' />
 			{transformedIngredients}
-			<SliderIngredient type="bun-bottom" />
+			<SliderIngredient type='bun-bottom' />
 		</div>
 	);
-};
+}
 
 export default slider;
