@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: sliderpilerdotcom:1.6.6
+    image: superklok/sliderpilerdotcom:1.6.7
     build: 
       context: .
     ports:
