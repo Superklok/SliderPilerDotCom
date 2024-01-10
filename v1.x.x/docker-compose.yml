@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: superklok/sliderpilerdotcom:1.6.9
+    image: superklok/sliderpilerdotcom:1.6.12
     build: 
       context: .
       target: prod
